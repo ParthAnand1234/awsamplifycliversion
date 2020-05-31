@@ -7,17 +7,20 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        
+          <p>Mr.classy</p>
+        <p> ⭐️ best product</p>
+        <p> ⭐️high qualitys`` </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://instagram.com/mr.classy_menswears?igshid=uh8octvwycqy"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         CLICK HERE FOR ONLINE SHOPPING
         </a>
+         <p>  *contact for any query 👇🏻</p>
+        <p>  @8439332229</p>
       </header>
     </div>
   );
