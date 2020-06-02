@@ -14,6 +14,12 @@
         "categories": {
             "auth": {
                 "reactamplify54ad8e8a": {}
+            },
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "dnootql3jj2h8",
+                    "type": "cicd"
+                }
             }
         }
     }

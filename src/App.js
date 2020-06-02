@@ -4,6 +4,7 @@ import './App.css';
 import Home from './Home.js';
 import Profile from './Profile.js';
 import {withAuthenticator} from 'aws-amplify-react';
+import '@aws-amplify/ui/dist/style.css';
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         CLICK HERE FOR ONLINE SHOPPING 123
+         CLICK HERE FOR ONLINE SHOPPING 123456
         </a>
          <p>  *contact for any query 👇🏻</p>
         <p>  @8439332229</p>
