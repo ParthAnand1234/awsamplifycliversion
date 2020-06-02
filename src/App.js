@@ -1,7 +1,8 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home.js'
+import Home from './Home.js';
+import Profile from './Profile.js';
 function App() {
   return (
     <div className="App">
