@@ -23,6 +23,7 @@ function App() {
          <p>  *contact for any query 👇🏻</p>
         <p>  @8439332229</p>
         <Home/>
+        <Profile/>
       </header>
     </div>
   );
