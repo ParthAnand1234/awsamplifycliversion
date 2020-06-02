@@ -3,6 +3,9 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './Home.js';
 import Profile from './Profile.js';
+import {withAuthenticator} from 'aws-amplify-react';
+
+
 function App() {
   return (
     <div className="App">
@@ -29,4 +32,4 @@ function App() {
   );
 }
 
-export default App;
+export default withAuthenticator(App, {includeGreeting: true});
