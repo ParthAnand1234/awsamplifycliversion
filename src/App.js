@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import Home from './Home.js'
 function App() {
   return (
     <div className="App">
@@ -21,6 +21,7 @@ function App() {
         </a>
          <p>  *contact for any query 👇🏻</p>
         <p>  @8439332229</p>
+        <Home/>
       </header>
     </div>
   );
