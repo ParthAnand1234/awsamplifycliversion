@@ -6,8 +6,14 @@ import Profile from './Profile.js';
 import {withAuthenticator} from 'aws-amplify-react';
 import '@aws-amplify/ui/dist/style.css';
 
-
 function App() {
+  
+ 
+  
+  
+  
+ 
+  
   return (
     <div className="App">
       <header className="App-header">
@@ -26,6 +32,7 @@ function App() {
         </a>
          <p>  *contact for any query 👇🏻</p>
         <p>  @8439332229</p>
+     
         <Home/>
         <Profile/>
       </header>

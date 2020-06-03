@@ -1,0 +1,34 @@
+{
+    "paths": [
+        {
+            "name": "/people",
+            "lambdaFunction": "peoplefunction",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "peopleapi",
+    "apiName": "peopleapi",
+    "functionArns": [
+        {
+            "lambdaFunction": "peoplefunction"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-reactamplify-dev-131712-authRole",
+        "unAuthRoleName": "amplify-reactamplify-dev-131712-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "peoplefunction",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
